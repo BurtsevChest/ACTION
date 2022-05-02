@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+	     $(".navigation").on("click","a", function (event) {
+	         event.preventDefault();
+	         var id  = $(this).attr('href'),
+	             top = $(id).offset().top;
+	         $('body,html').animate({scrollTop: top}, 1500);
+	     });
+	 });
+		</script>
+		<style>
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@400;700&display=swap');
+</style>
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="container-flex">
+					<div class="logo"><a href="#"><img style="width:70px;" src="Images/logo-axit.png" alt=""> </a> </div>
+					<div class="navigation">
+						<a href="#">Features</a>
+						<a href="#">About</a>
+						<a href="#pricing">Pricing</a>
+						<a href="#">Reviews</a>
+						<a href="#">Contact</a>
+					</div>
+				</div>
+			</nav>
+			<div class="container-flex">
+				<div class="promo">
+					<a href="#"><img style="width:170px;" src="Images/logo-axit.png" alt=""></a>
+					<h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+					<div class="line-grey"></div>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+				euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+				accumsan et viverra justo commodo.</span>
+				<button type="button" name="button" class="btn-download">Download</button>
+				</div>
+				<div class="chek">
+					<div class="account">Try Your <span>FREE</span> Trial Today</div>
+					<form class="" action="index.html" method="post">
+           <input type="text" name="Name" placeholder="Name">
+					</form>
+					<form class="" action="index.html" method="post">
+           <input type="text" name="Name" placeholder="Email">
+					</form>
+					<form class="" action="index.html" method="post">
+           <input type="text" name="Name" placeholder="Password">
+					</form>
+					<button type="button" class="get_started"name="button">Get Started</button>
+				</div>
+			</div>
+		</header>
+<div class="container-flex social_media">
+<div class="aboutsm">
+<h2>Social Media</h2>
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</span>
+</div>
+<a href="#"><img src="Images/Social/facebook.png" alt=""> </a>
+<a href="#"><img src="Images/Social/twitter.png" alt=""> </a>
+<a href="#"><img src="Images/Social/pinerest.png" alt=""> </a>
+<a href="#"><img src="Images/Social/google.png" alt=""> </a>
+<a href="#"><img src="Images/Social/instagram.png" alt=""> </a>
+<a href="#"><img src="Images/Social/linkedin.png" alt=""> </a>
+<a href="#"><img src="Images/Social/rss.png" alt=""> </a>
+</div>
+<article>
+<div class="container-flex taB">
+	<div class="tab">
+		<input class="Tab" type="radio" name="name" value="" id ="tab1" checked>
+		<label id="Tab1" for="tab1">Tab 1</label>
+		<input class="Tab" type="radio" name="name" value="" id ="tab2">
+		<label id="Tab2" for="tab2">Tab 2</label>
+		<input class="Tab" type="radio" name="name" value="" id ="tab3">
+		<label id="Tab3" for="tab3">Tab 3</label>
+		<div class="tabs">
+			<div>
+				<h2>Tabs with soft transition effect. Tab1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus eos, earum. Possimus hic, voluptas eius doloremque veritatis.
+
+Exercitationem cum veritatis, corporis incidunt dicta unde molestias at omnis fuga perspiciatis eos vel dolor, obcaecati alias accusamus debitis ex mollitia adipisci. Molestias</p>
+			</div>
+			<div>
+				<h2>Tabs with soft transition effect. Tab2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus eos, earum. Possimus hic, voluptas eius doloremque veritatis.
+
+Exercitationem cum veritatis, corporis incidunt dicta unde molestias at omnis fuga perspiciatis eos vel dolor, obcaecati alias accusamus debitis ex mollitia adipisci. Molestias</p>
+			</div>
+			<div>
+				<h2>Tabs with soft transition effect. Tab3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus eos, earum. Possimus hic, voluptas eius doloremque veritatis.
+
+Exercitationem cum veritatis, corporis incidunt dicta unde molestias at omnis fuga perspiciatis eos vel dolor, obcaecati alias accusamus debitis ex mollitia adipisci. Molestias</p>
+			</div>
+		</div>
+	</div>
+	<div class="imgcity">
+		<img src="Images/city.png" alt="">
+	</div>
+</div>
+</article>
+<div class="listsection">
+	<div class="container-flex list">
+		<div class="image"><img src="Images/img1.png" alt=""> </div>
+		<div class="section">
+			<h2>Sub list section</h2>
+			<div class="yellowline"></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+			<div class="flex">
+				<div class="flex1"><img src="Images/cloud_up.png" alt=""> </div>
+				<div class="flex2">
+					<h4>Title</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+				</div>
+			</div>
+			<div class="flex">
+				<div class="flex1"><img src="Images/cloud_down.png" alt=""> </div>
+				<div class="flex2">
+					<h4>Title</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="cloud">
+	<div class="container-flex standartsection">
+		<div class="section">
+			<h2>Standart picture section</h2>
+			<div class="yellowline"></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+		</div>
+		<div class="image"><img src="Images/city2.png" alt=""> </div>
+	</div>
+</div>
+<div class="container title">
+	<h1>WHY THIS IS AWESOME</h1>
+	<div class="yellowlineititle"></div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<div class="our-advantages">
+		<div class="our-margin">
+			<p><a href="#"><img src="Images/cloud_down.png" alt=""> </a> </p>
+			<span>Thoughtful Design</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+		</div>
+		<div class="our-margin">
+			<p><a href="#"><img src="Images/cloud_down.png" alt=""> </a> </p>
+			<span>Well Crafted</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+		</div>
+		<div class="our-margin">
+			<p><a href="#"><img src="Images/cloud_down.png" alt=""> </a> </p>
+			<span>Easy to Customize</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+		</div>
+	</div>
+</div>
+
+<div class="options">
+<div class="container title">
+
+	<h1 class="titleh1"><a id ="pricing"></a>PRICING OPTIONS</h1>
+	<div class="yellowlineititle"></div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<div class="pricelists">
+		<div class="pricelist list1">
+      <div class="listtitle"><h1>Basic</h1></div>
+			<div class="price">$0</div>
+			<div class="text"><p>Free for Life</p></div>
+			<div class="package">
+				<div class="package_item">1 GB OF SPACE</div>
+				<div class="package_item">10 GB OF BANDWIDTH</div>
+				<div class="package_item">3 WEBSITES</div>
+				<div class="package_item">BASIC CUSTOMIZATION</div>
+				<div class="package_item">WORDPRESS INTEGRATION</div>
+				<div class="package_item">EMAIL SUPPORT</div>
+			</div>
+		</div>
+	<div class="pricelist">
+<div class="listtitle"><h1>Professional</h1></div>
+<div class="price">$19</div>
+<div class="text"><p>Mounthly Payment</p></div>
+<div class="package">
+	<div class="orange_item">OUR MOST POPULAR</div>
+	<div class="package_item">1 GB OF SPACE</div>
+	<div class="package_item">10 GB OF BANDWIDTH</div>
+	<div class="package_item">3 WEBSITES</div>
+	<div class="package_item">BASIC CUSTOMIZATION</div>
+	<div class="package_item">WORDPRESS INTEGRATION</div>
+	<div class="package_item">EMAIL SUPPORT</div>
+</div>
+	</div>
+	<div class="pricelist list3" >
+		<div class="listtitle"><h1>Enterprise</h1></div>
+		<div class="price">%70</div>
+		<div class="text"><p>Mounthly Payment</p></div>
+		<div class="package">
+			<div class="package_item">1 GB OF SPACE</div>
+			<div class="package_item">10 GB OF BANDWIDTH</div>
+			<div class="package_item">3 WEBSITES</div>
+			<div class="package_item">BASIC CUSTOMIZATION</div>
+			<div class="package_item">WORDPRESS INTEGRATION</div>
+			<div class="package_item">EMAIL SUPPORT</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+<div class="customers">
+	<div class="container title">
+		<h1 class="titleh1">WHAT OUR CUSTOMERS A SAYING</h1>
+		<div class="yellowlineititle"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<div class="custommasage">
+<div class="custom">
+	<div class="massage"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p> </div>
+   <div class="customer">
+   <div class="face"></div>
+	 <div class="customname">
+	 	<h2>Jeremy H.</h2>
+		<p>Manager</p>
+	 </div>
+	</div>
+</div>
+<div class="custom">
+	<div class="massage"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p> </div>
+   <div class="customer">
+   <div class="face"></div>
+	 <div class="customname">
+		 <h2>Jhon S.</h2>
+ 		<p>Freelancer</p>
+	 </div>
+	 </div>
+</div>
+<div class="custom">
+	<div class="massage"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p> </div>
+   <div class="customer">
+   <div class="face"></div>
+	 <div class="customname">
+		 <h2>Susan W.</h2>
+ 		<p>Photographer</p>
+	 </div>
+	 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="design">
+<div class="container">
+	<h1 class="whitetitleh1"style="color:white;" >STYLISH AXURE DESIGN</h1>
+	<div class="whitelineititle"></div>
+	<p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+   <button type="button" name="button" class="btn-download">Download</button>
+</div>
+</div>
+<div class="contact">
+	<div class="container">
+		<h1 class="titleh1">CONTACT US</h1>
+		<div class="yellowlineititle"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<div class="flex_contacts">
+			<div class="flexform">
+				<form action=""><input type="text" name="" placeholder="Name"> </form>
+				<form action=""><input type="text" name="" placeholder="Email"> </form>
+				<form action=""><input type="text" name="" placeholder="Subject"> </form>
+			</div>
+			<div class="flexform">
+				<textarea cols="10" rows="15" placeholder="Message"></textarea>
+			</div>
+		</div>
+		<button type="button" class="sendmassage" name="button">Send Massage</button>
+	</div>
+</div>
+<footer>
+	<div class="last">
+		<a href="#"><img src="Images/Social/facebook.png" alt=""> </a>
+ 	 <a href="#"><img src="Images/Social/twitter.png" alt=""> </a>
+ 	 <a href="#"><img src="Images/Social/pinerest.png" alt=""> </a>
+ 	 <a href="#"><img src="Images/Social/google.png" alt=""> </a>
+ 	 <a href="#"><img src="Images/Social/instagram.png" alt=""> </a>
+ 	 <a href="#"><img src="Images/Social/linkedin.png" alt=""> </a>
+ 	 <a href="#"><img src="Images/Social/rss.png" alt=""> </a>
+	</div>
+</footer>
+</body>
+</html>
